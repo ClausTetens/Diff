@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBlock x:Name="comparedText" HorizontalAlignment="Left" Margin="28,120,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="437">
+        </TextBlock>
+        <Button Content="Compare" HorizontalAlignment="Left" Margin="169,248,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="firstText" Height="23" Margin="0,39,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" HorizontalContentAlignment="Stretch"/>
+        <TextBox x:Name="secondText" Height="23" Margin="0,76,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" HorizontalContentAlignment="Stretch"/>
+
     </Grid>
 </Window>
